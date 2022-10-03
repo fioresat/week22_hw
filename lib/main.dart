@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:week22_hw/ui/recipes_screen.dart';
+import 'package:week22_hw/ui/screen/recipes_screen.dart';
 
 
 void main() {

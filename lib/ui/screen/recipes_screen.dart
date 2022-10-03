@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 
-import '../data/home_store.dart';
-import '../data/recipe_card.dart';
+import '../home_store.dart';
+import '../widget/recipe_card.dart';
 
 
 

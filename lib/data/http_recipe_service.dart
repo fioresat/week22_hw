@@ -1,9 +1,11 @@
+import 'package:week22_hw/domain/recipe_service.dart';
 import 'dart:convert';
 
 import 'package:http/http.dart' as http;
-import 'package:week22_hw/data/recipe.dart';
+import '../domain/recipe.dart';
 
-class RecipeService {
+class HttpRecipeService implements RecipeService {
+  @override
   Future<List<Recipe>> fetchRecipes() async {
     var url = Uri.parse('https://api.spoonacular.com/recipes/complexSearch?apiKey=YOUR_API_KEY_HERE');
     var response = await http.get(url);
