@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:week22_hw/domain/recipe.dart';
+import 'package:week22_hw/domain/model/recipe.dart';
 
 class RecipeCard extends StatelessWidget {
   final Recipe recipe;

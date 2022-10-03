@@ -1,9 +1,9 @@
 import 'package:mobx/mobx.dart';
-import 'package:week22_hw/domain/recipe.dart';
-import 'package:week22_hw/domain/recipe_service.dart';
+import 'package:week22_hw/domain/model/recipe.dart';
+import 'package:week22_hw/domain/service/recipe_service.dart';
 
-import '../data/defaul_recipe_interactor.dart';
-import '../domain/recipe_interactor.dart';
+import '../data/interactor/defaul_recipe_interactor.dart';
+import '../domain/interactor/recipe_interactor.dart';
 
 part 'home_store.g.dart'; // Указание для кодогенерации
 

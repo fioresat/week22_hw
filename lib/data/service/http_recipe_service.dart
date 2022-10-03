@@ -1,8 +1,8 @@
-import 'package:week22_hw/domain/recipe_service.dart';
+import 'package:week22_hw/domain/service/recipe_service.dart';
 import 'dart:convert';
 
 import 'package:http/http.dart' as http;
-import '../domain/recipe.dart';
+import '../../domain/model/recipe.dart';
 
 class HttpRecipeService implements RecipeService {
   @override
