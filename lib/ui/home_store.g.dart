@@ -1,6 +1,6 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
-part of '../ui/home_store.dart';
+part of 'home_store.dart';
 
 // **************************************************************************
 // StoreGenerator

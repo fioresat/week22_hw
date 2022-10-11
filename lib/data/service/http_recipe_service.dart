@@ -1,9 +1,11 @@
+import 'package:injectable/injectable.dart';
 import 'package:week22_hw/domain/service/recipe_service.dart';
 import 'dart:convert';
 
 import 'package:http/http.dart' as http;
 import '../../domain/model/recipe.dart';
 
+@Injectable(as: RecipeService)
 class HttpRecipeService implements RecipeService {
   @override
   Future<List<Recipe>> fetchRecipes() async {

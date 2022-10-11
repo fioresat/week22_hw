@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:week22_hw/ui/screen/recipes_screen.dart';
 
+import 'di/config.dart';
+
 
 void main() {
+  configureDependencies();
   runApp(const MyApp());
 }
 

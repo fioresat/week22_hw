@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 
+import '../../di/config.dart';
 import '../home_store.dart';
 import '../widget/recipe_card.dart';
 
@@ -14,7 +15,7 @@ class RecipesScreen extends StatefulWidget {
 }
 
 class _RecipesScreenState extends State<RecipesScreen> {
-  final _viewModel = HomeStore();
+  final _viewModel = getIt<HomeStore>();
 
   @override
   void initState() {
